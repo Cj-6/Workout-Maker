@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="600" maxWidth="800" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="800.0" stylesheets="application.css" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.workoutmaker.Controller">
+    <children>
+        <Pane layoutX="400.0" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #B76D68;">
+            <children>
+                <Button layoutX="213.0" layoutY="14.0" mnemonicParsing="false" onAction="#createNewSplit"
+                        text="Create new split ">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Button>
+                <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToMain" text="Back">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Button>
+                <Button layoutX="14.0" layoutY="542.0" mnemonicParsing="false" onAction="#deleteSelectedSplit"
+                        text="Delete Selected Split">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+        <Pane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #323232;">
+            <children>
+                <ListView fx:id="splitListView" layoutX="14.0" layoutY="43.0" prefHeight="545.0" prefWidth="371.0"/>
+                <Label fx:id="label" layoutX="14.0" layoutY="8.0" text="Your Splits" textFill="WHITE">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Label>
+                <Line endX="100.0" layoutX="115.0" layoutY="36.0" startX="-100.0" stroke="#c3c3c3" strokeWidth="2.0"/>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

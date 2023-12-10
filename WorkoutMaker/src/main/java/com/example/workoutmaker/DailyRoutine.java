@@ -7,24 +7,23 @@ import java.util.List;
  */
 public class DailyRoutine {
 
-    private String dayOfWeek; // Add a field to represent the day of the week
+    private int dayOfWeek; // Add a field to represent the day of the week
     private List<String> musclesWorked;
-    private String splitName;
 
 
     public DailyRoutine() {
     }
 
-    public DailyRoutine(String dayOfWeek, List<String> musclesWorked) {
+    public DailyRoutine(int dayOfWeek, List<String> musclesWorked) {
         this.dayOfWeek = dayOfWeek;
         this.musclesWorked = musclesWorked;
     }
 
-    public String getDayOfWeek() {
+    public int getDayOfWeek() {
         return dayOfWeek;
     }
 
-    public void setDayOfWeek(String dayOfWeek) {
+    public void setDayOfWeek(int dayOfWeek) {
         this.dayOfWeek = dayOfWeek;
     }
 

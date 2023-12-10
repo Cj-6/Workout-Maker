@@ -1,0 +1,35 @@
+.label {
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-weight: bold; /* JavaFX uses 'bold' for font-weight */
+        -fx-font-size: 40px;
+
+
+}
+
+.button{
+    -fx-background-color: #222;
+    -fx-border-radius: 4px;
+    -fx-border-style: none;
+    -fx-box-sizing: border-box;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand; /* JavaFX uses 'hand' for pointer cursor */
+    -fx-display: inline-block; /* JavaFX uses 'inline-block' by default */
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold; /* JavaFX uses 'bold' for font-weight */
+    -fx-line-height: 1.5;
+    -fx-margin: 0;
+    -fx-min-height: 44px;
+    -fx-min-width: 10px;
+    -fx-padding: 9px 20px 8px 20px; /* JavaFX padding order: top, right, bottom, left */
+    -fx-alignment: center; /* Center align text */
+    -fx-text-transform: none;
+    -fx-user-select: none;
+    -fx-touch-action: manipulation;
+    -fx-width: 100%;
+}
+.button:hover {
+    -fx-background-color: #303030;
+}
+
+
